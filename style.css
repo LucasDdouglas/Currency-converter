@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    height: 766px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    margin-top: 100px;
+
+
+}
+
+
+header {
+    background: rgb(2,117,228);
+    background: radial-gradient(circle, rgba(2,117,228,1) 0%, rgba(15,182,141,1) 93%);
+    height: 66px;
+
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 24px;
+
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+
+
+
+input {
+    width: 327px;
+    height: 49px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    padding: 15px;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background: rgb(2,117,228);
+    background: radial-gradient(circle, rgba(2,117,228,1) 0%, rgba(15,182,141,1) 100%);
+    border-radius: 25px;
+    border-style: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F4F4F4;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    left: 24px;
+    top: 458px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency-container {
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+.arrow {
+    margin: 15px auto;
+    display: block;
+}
