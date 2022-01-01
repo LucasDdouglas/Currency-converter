@@ -18,7 +18,7 @@ const ConvertValue = () => {
     RealValue.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(input)
 
 
-    if (select.value === "US$ Dólar americano") {
+    if (select.value === "US$ Dólar Americano") {
         ValueText.innerHTML = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(input / dolar)
     }
 
@@ -36,8 +36,8 @@ const ChangeSelect = () => {
     const CoinsName = document.getElementById("Coins-Name")
     const CountryFlag = document.getElementById("Country-Flag")
 
-    if (select.value === "US$ Dólar americano") {
-        CoinsName.innerHTML = "US$ Dólar americano"
+    if (select.value === "US$ Dólar Americano") {
+        CoinsName.innerHTML = "US$ Dólar Americano"
         CountryFlag.src = "assets/estados-unidos (1) 1.svg"
     }
 
